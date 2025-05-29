@@ -11,4 +11,64 @@ html body {
   justify-content: end;
   align-items: center;
   padding: 20px;
+  border-bottom: black 1px solid;
+}
+.first_page {
+  background-color: #cae8bd;
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#greeting {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20%;
+  font-size: 6rem;
+  /* font-family: sans-serif; */
+}
+#show_project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#about_me_img {
+  width: 40rem;
+}
+
+.about_me_page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.title {
+  font-size: 4rem;
+}
+#summary {
+  font-size: 2rem;
+  width: 50%;
+}
+
+/* project css */
+.project_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 2fr;
+  height: 100vh;
+}
+.project_title {
+  font-size: 4rem;
+  grid-column: 1/3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project_card {
+  text-align: center;
+  font-size: 2rem;
 }
