@@ -1,0 +1,14 @@
+html body {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  background-color: #cae8bd;
+  /* width: 100%; */
+  display: flex;
+  gap: 2rem;
+  height: 4vh;
+  justify-content: end;
+  align-items: center;
+  padding: 20px;
+}
